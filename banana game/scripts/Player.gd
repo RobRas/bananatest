@@ -17,3 +17,5 @@ func _physics_process(delta: float):
 	
 	var velocity = Vector2(x, y)
 	move_and_slide(velocity)
+
+# collision
