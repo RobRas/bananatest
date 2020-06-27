@@ -1,5 +1,6 @@
 extends KinematicBody2D
 
+# jump code
 
 func _physics_process(delta: float):
 	var x: float = 0
