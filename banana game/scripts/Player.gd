@@ -19,3 +19,6 @@ func _physics_process(delta: float):
 	move_and_slide(velocity)
 
 # collision
+
+
+#Jack is super coll and fun WOOOOOOOOOOOOOOOOOOOOO
