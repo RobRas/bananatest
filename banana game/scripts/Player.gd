@@ -21,3 +21,6 @@ func _physics_process(delta: float):
 # collision
 #test
 #YOU CAN'T STOP THE JAM
+
+
+#Jack is super cool and fun WOOOOOOOOOOOOOOOOOOOOO
