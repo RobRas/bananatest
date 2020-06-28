@@ -24,3 +24,7 @@ func _physics_process(delta: float):
 
 
 #Jack is super cool and fun WOOOOOOOOOOOOOOOOOOOOO
+
+func SergioIsMean():
+	print_debug("Crying")
+	
