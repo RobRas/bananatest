@@ -20,6 +20,8 @@ func _physics_process(delta: float):
 
 # collision
 #test
+func BobbyDaTaskMaster():
+	return("Bobby trapped me in a Github Repository")
 #YOU CAN'T STOP THE JAM
 
 
