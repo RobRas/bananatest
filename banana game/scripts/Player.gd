@@ -3,20 +3,20 @@ extends KinematicBody2D
 # jump code
 
 func _physics_process(delta: float):
+	var velocity = Vector2()
+	
 	var x: float = 0
 	if Input.is_action_pressed("move_left"):
 		x -= 100
 	if Input.is_action_pressed("move_right"):
 		x += 100
 	
-	var y: float = 0
-	if Input.is_action_pressed("move_up"):
-		y -= 100
-	if Input.is_action_pressed("move_down"):
-		y += 100
+	velocity = Vector2(x, 0)
+	velocity.y += 9.8 * delta * 100
 	
-	var velocity = Vector2(x, y)
 	move_and_slide(velocity)
+	
+	
 
 # collision
 #test
